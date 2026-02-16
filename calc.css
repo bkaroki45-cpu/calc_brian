@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(39, 37, 37, 0.979);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin-top: 200px;
+}
+
+
+.calc{
+    background-color: rgb(44, 40, 40);
+    border-color: rgba(128, 128, 128, 0.781);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 25px;
+    
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    
+
+}
+
+.nub{
+    width: 350px;
+    background-color:  transparent;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    border-style: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+   
+
+}
+
+.buttons{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+}
+
+button{
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(48, 46, 46);
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+}
+ .first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+ }
+
+ ::placeholder{
+    font-size: 35px;
+    color: white;
+    padding-left: 310px;
+    font-family: "Roboto Mono", monospace;
+    
+    
+ }
+
+ .row{
+    background: rgba(128, 128, 128, 0.466);
+ }
+
+ .column{
+    background-color: rgba(226, 111, 3, 0.623);
+ }
+
