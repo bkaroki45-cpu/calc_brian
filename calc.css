@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 
 *{
-    margin: 0;
+    margin: o;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Mono", monospace;
 }
 
 body{
@@ -12,102 +12,88 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    justify-items: center;
+    align-content: center;
+    margin-top: 200px;
 }
 
-/* WRAPPER (for scaling) */
-.wrapper{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
-/* CALCULATOR */
 .calc{
     background-color: rgb(44, 40, 40);
-    border: 4px solid rgba(128, 128, 128, 0.781);
+    border-color: rgba(128, 128, 128, 0.781);
+    border-width: 4px;
+    border-style: solid;
     border-radius: 25px;
-    padding: 15px;
-    width: 360px;
+    
 }
 
-/* SCREEN */
 .screen{
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    
+
 }
 
 .nub{
     width: 350px;
-    background-color: transparent;
+    background-color:  transparent;
     padding-top: 100px;
     padding-bottom: 10px;
-    border: none;
+    border-style: none;
     border-radius: 15px;
-    margin: 10px 0 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     color: white;
     font-size: 20px;
-    text-align: right;
-    padding-right: 10px;
+   
+
 }
 
-/* ROWS (IMPORTANT - restore this) */
-.first{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.buttons{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
 }
 
-/* BUTTONS (original look) */
 button{
     padding: 20px;
     width: 80px;
     height: 80px;
     border-radius: 5px;
-    border: none;
+    border-style: none;
     background-color: rgb(48, 46, 46);
     color: white;
     font-size: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
     font-weight: bold;
-    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
 }
+ .first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+ }
 
-/* CLICK EFFECT */
-button:active{
-    transform: scale(0.95);
-}
-
-/* COLORS (RESTORED) */
-.row{
-    background: rgba(128, 128, 128, 0.466);
-}
-
-.column{
-    background-color: rgba(226, 111, 3, 0.8);
-}
-
-/* PLACEHOLDER */
-::placeholder{
+ ::placeholder{
     font-size: 35px;
     color: white;
-}
+    padding-left: 310px;
+    font-family: "Roboto Mono", monospace;
+    
+    
+ }
 
-/* 🔥 RESPONSIVE (SAFE SCALING) */
-@media (max-width: 500px){
-    .wrapper{
-        transform: scale(0.85);
-        transform-origin: center;
-    }
-}
+ .row{
+    background: rgba(128, 128, 128, 0.466);
+ }
 
-@media (max-width: 400px){
-    .wrapper{
-        transform: scale(0.75);
-    }
-}
-
-@media (max-width: 320px){
-    .wrapper{
-        transform: scale(0.65);
-    }
-}
+ .column{
+    background-color: rgba(226, 111, 3, 0.623);
+ }
