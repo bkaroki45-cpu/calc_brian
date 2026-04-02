@@ -7,43 +7,53 @@
     <link rel="stylesheet" href="calc.css">
 </head>
 <body>
-    <div class="calc">
-        <div class="screen">
-            <input class='nub' type="text" placeholder="0" readonly>
-        </div>
-        <div class="buttons">
-            <div class="first">
-                <button class="row">AC</button>
-                <button class="row">+/-</button>
-                <button class="row">%</button>
-                <button class="column">/</button>
+
+    <!-- 🔥 ADD THIS WRAPPER -->
+    <div class="wrapper">
+        <div class="calc">
+            <div class="screen">
+                <input class='nub' type="text" placeholder="0" readonly>
             </div>
-            <div class="first">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="column">*</button>
-            </div>
-            <div class="first">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="column">-</button>
-            </div>
-            <div class="first">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="column">+</button>
-            </div>
-            <div class="first">
-                <button data-value="DEL">DEL</button>
-                <button>0</button>
-                <button>.</button>
-                <button class="column">=</button>
+
+            <div class="buttons">
+                <div class="first">
+                    <button class="row">AC</button>
+                    <button class="row">+/-</button>
+                    <button class="row">%</button>
+                    <button class="column">/</button>
+                </div>
+
+                <div class="first">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="column">*</button>
+                </div>
+
+                <div class="first">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="column">-</button>
+                </div>
+
+                <div class="first">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="column">+</button>
+                </div>
+
+                <div class="first">
+                    <button data-value="DEL">DEL</button>
+                    <button>0</button>
+                    <button>.</button>
+                    <button class="column">=</button>
+                </div>
             </div>
         </div>
     </div>
+
     <script src="calc.js"></script>
 </body>
 </html>
